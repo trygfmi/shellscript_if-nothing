@@ -453,8 +453,10 @@ no error</code></pre>
 
 
 <pre class="wp-block-own-copy-code-line-block wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sed -i '6 s/# //' start_if-nothing.sh #ubuntu, windows
+./start_if-nothing.sh
 sed -i '6 s/echo/# echo/' start_if-nothing.sh #ubuntu, windows
 
 sed -i '' '6 s/# //' start_if-nothing.sh #macos
+./start_if-nothing.sh
 sed -i '' '6 s/echo/# echo/' start_if-nothing.sh #macos</code></pre>
 </div>
